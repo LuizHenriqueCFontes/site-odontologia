@@ -14,7 +14,6 @@
 
 html, body{
     height: 100vh;
-    width: 100vw;
 }
 
 body{
@@ -25,7 +24,7 @@ body{
 }
 
 header{
-    background-color: var(--cor-principal);
+    background-image: linear-gradient(to top, var(--cor-principal), var(--cor-terciaria));
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -37,7 +36,7 @@ header a{
     text-decoration: none;
     color: white;
     display: inline-block;
-    transition: 0.2s;
+    transition: 0.6s;
 }
 
 header a:hover{
@@ -60,6 +59,7 @@ header button{
     padding: 10px;
     border-radius: 10px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 header button:hover{
@@ -74,6 +74,7 @@ header button:hover{
 
 main{
     grid-row: 2 / 3;
+    padding: 15px;
 }
 
 .section-after-apresentar{
@@ -91,6 +92,7 @@ main{
     padding: 20px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    margin: -15px -15px 10px;
 }
 
 .apresentacao{
@@ -114,8 +116,15 @@ main{
 }
 
 .section-after-apresentar h2{
+    padding: 3px 10px;
     font-weight: bold;
     color: var(--cor-principal);
+}
+
+.nossa-equipe h2{
+    width: 390px;
+    padding-bottom: 3px;
+    border-bottom: 5px solid var(--cor-principal);
 }
 
 .equipe-completa{
@@ -132,30 +141,128 @@ main{
 
 .card-equipe{
     box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.253);
-    padding: 10px;
+    padding: 15px;
     border-radius: 14px;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 15px;
 }
 
 .card-equipe h3{
+    color: var(--cor-principal);
+    margin-top: 20px;
     margin-bottom: 7px;
 }
 
 .card-equipe p{
     letter-spacing: 0.3px;
-    text-align: center;
+    margin-bottom: 20px;
 }
 
 .card-equipe img{
     margin: -10px;
     width: 100%;
-    aspect-ratio: 16 / 9;
+    aspect-ratio: 3 / 2;
     border-radius: 10px;
-    object-fit: cover;
-
     display: block;
     margin: auto;
 }
 
+.quem-somos{
+    padding: 10px;
+}
+
+.quem-somos h2{
+    width: 180px;
+    padding-bottom: 3px;
+    border-bottom: 5px solid var(--cor-principal);
+}
+
+.quem-somos h3{
+    color: var(--cor-principal);
+    margin-bottom: 6px;
+}
+
+.quem-somos p{
+    margin-bottom: 20px;
+}
+
+.quem-somos img{
+    width: 100%;
+    aspect-ratio: 3 / 2;
+    border-radius: 10px;
+    margin: 15px 0;
+}
+
+.card-avaliacao{
+    margin-top: 10px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.253);
+    margin-bottom: 15px;
+    padding: 15px;
+    border-radius: 14px;
+}
+
+.card-avaliacao img{
+    width: 60%;
+    aspect-ratio: 1 / 1;
+    border-radius: 50%;
+    display: block;
+    margin: 10px auto;
+}
+
+.card-avaliacao h3{
+    text-align: center;
+    margin-bottom: 7px;
+}
+
+.card-avaliacao p{
+    text-align: justify;
+    margin-bottom: 20px;
+}
+
+.stars{
+    display: block;
+    font-size: 0.8em;
+    margin-bottom: 5px;
+}
+
+.avaliacoes button{
+    padding: 10px;
+    border-radius: 17px;
+    border: none;
+    background-image: linear-gradient(to left, var(--cor-secundaria), var(--cor-principal));
+    cursor: pointer;
+    margin-bottom: 10px;
+    transition: 0.5s;
+    display: inline-block;
+}
+
+.avaliacoes button:hover{
+    transform: scale(1.1);
+}
+
+.avaliacoes button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.links-avaliacoes{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ver-avaliacao{
+    font-size: 0.9em;
+    transition: 0.5s;
+}
+
+.ver-avaliacao:hover{
+    transform: scale(1.1);
+}
 
 
 
