@@ -161,7 +161,7 @@ main{
 
 .card-equipe img{
     margin: -10px;
-    width: 100%;
+    width: 80%;
     aspect-ratio: 3 / 2;
     border-radius: 10px;
     display: block;
@@ -237,6 +237,13 @@ main{
     display: inline-block;
 }
 
+.avaliacoes h2{
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    border-bottom: 5px solid var(--cor-principal);
+    width: 410px;
+}
+
 .avaliacoes button:hover{
     transform: scale(1.1);
 }
@@ -263,6 +270,60 @@ main{
 .ver-avaliacao:hover{
     transform: scale(1.1);
 }
+
+.atuacoes h2{
+    border-bottom: 5px solid var(--cor-principal);
+    padding-bottom: 5px;
+    width: 350px;
+}
+
+.card-atuacoes{
+    margin: 15px 0px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.253);
+    border-radius: 14px;
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    width: 90%;
+}
+
+.card-atuacoes p{
+    margin-bottom: 20px;
+}
+
+.card-atuacoes h3{
+    color: var(--cor-principal);
+    margin-bottom: 5px;
+}
+
+.card-atuacoes img{
+    display: block;
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    margin-right: 20px;
+}
+
+footer{
+    padding: 10px;
+}
+
+.logo-deitada{
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+    aspect-ratio: 16 / 9;
+}
+
+.informacoes ul{
+    display: flex;
+    list-style: none;
+}
+
+.redes-sociais li{
+    margin-right: 10px;
+}
+
+
 
 
 
