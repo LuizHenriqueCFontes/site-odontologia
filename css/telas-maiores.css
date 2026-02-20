@@ -1,0 +1,41 @@
+/*Telas maiores*/
+
+@media screen and (min-width: 768px) {
+    
+    body{
+        background-color: white;
+    }
+
+
+    main{
+        width: 100%;
+    }
+
+    .section-after-apresentar{
+        background-color: transparent;
+        margin: 0;
+    }
+
+    .section-after-apresentar h2{
+        text-align: left;
+    }
+
+    .section-after-apresentar img{
+        width: 40%;
+    }
+
+    .container-equipe img{
+        width: 75%;
+        display: block;
+    }
+
+    article .ajuste{
+        display: flex;
+        width: 750px;
+        margin: 10px 20px;
+    }
+
+    .alinhar{
+        display: flex;
+    }
+}
