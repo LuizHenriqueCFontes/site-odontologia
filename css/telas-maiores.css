@@ -14,6 +14,7 @@
     .section-after-apresentar{
         background-color: transparent;
         margin: 0;
+        width: 100% !important;
     }
 
     .section-after-apresentar h2{
@@ -21,21 +22,20 @@
     }
 
     .section-after-apresentar img{
-        width: 40%;
+        width: 90%;
     }
 
     .container-equipe img{
-        width: 75%;
+        width: 100%;
         display: block;
     }
 
-    article .ajuste{
-        display: flex;
-        width: 750px;
+    article div{
         margin: 10px 20px;
     }
 
     .alinhar{
         display: flex;
     }
+
 }
