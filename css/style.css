@@ -16,6 +16,10 @@ html, body{
     height: 100vh;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 
 body{
@@ -33,6 +37,8 @@ header{
     align-items: center;
     padding: 15px;
     grid-row: 1 / 2;
+    position: fixed;
+    width: 100%;
 }
 
 header a{
@@ -95,7 +101,7 @@ main{
     background-color: white;
     padding: 10px;
     border-radius: 10px;
-    max-width: 650px;
+    
     margin: 0 auto 10px;
 }
 
@@ -329,12 +335,12 @@ footer h3{
 }
 
 .logo-deitada{
+    aspect-ratio: 3 / 2;
     width: 100%;
-    height: 150px;
+    max-width: 550px;
     object-fit: cover;
-    aspect-ratio: 16 / 9;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    display: block;
+    margin: auto;   
 }
 
 .informacoes ul{
@@ -352,6 +358,7 @@ footer h3{
 }
 
 .redes-sociais{
+    margin-top: -60px;
     margin-bottom: 40px;
 }
 

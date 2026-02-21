@@ -6,36 +6,102 @@
         background-color: white;
     }
 
+    header{
+        align-items: center;
+    }
+
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    nav button{
+        margin-top: -15px;
+    }
+
+    nav ul{
+        display: flex;
+    }
+
+    nav li{
+        margin-right: 20px;
+    }
 
     main{
         width: 100%;
+        padding: 20px;
+    }
+
+    h2{
+        margin-bottom: 15px;
+    }
+
+    .apresentar{
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        background-position: left top;
+        margin: -20px;
     }
 
     .section-after-apresentar{
+        margin-top: 20px;
         background-color: transparent;
-        margin: 0;
+        max-width: 1536px;
+
     }
 
     .section-after-apresentar h2{
         text-align: left;
     }
 
-    .section-after-apresentar img{
-        width: 40%;
+    .section-after-apresentar p{
+        margin-bottom: 10px;
     }
-
-    .container-equipe img{
-        width: 75%;
-        display: block;
-    }
-
-    article .ajuste{
-        display: flex;
-        width: 750px;
-        margin: 10px 20px;
-    }
-
+    
     .alinhar{
-        display: flex;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        align-items: stretch;
+        gap: 24px;
     }
+
+    .card-equipe{
+        margin: 0;
+        aspect-ratio: 1 / 1;
+        width: 100%;
+    }
+
+    .card-equipe p{
+        margin-bottom: 0;
+    }
+
+    .foto{
+        aspect-ratio: 16 /9;
+        width: 65%;
+    }
+
+    .quem-somos img{
+        width: 50%;
+    }
+
+    .container-atuacoes{
+        margin-bottom: 30px;
+    }
+
+    .links-avaliacoes{
+        margin-top: 15px;
+    }
+
+    .map{
+        aspect-ratio: 1 / 1;
+        width: 40%;
+        max-width: 650px;
+    }
+
+    .logo-deitada{
+        height: 350px;
+    }
+
 }
