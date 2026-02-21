@@ -49,7 +49,7 @@
         margin-top: 20px;
         background-color: transparent;
         max-width: 1536px;
-
+        scroll-margin-top: 130px;
     }
 
     .section-after-apresentar h2{
